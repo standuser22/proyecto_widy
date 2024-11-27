@@ -10,9 +10,7 @@
     height: 100%;
     background: radial-gradient(circle, rgba(255, 168, 206, 1) 0%, rgba(224, 181, 255, 1) 40%, rgba(181, 224, 255, 1) 80%, rgba(181, 255, 231, 1) 100%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Shadow for depth */
     border-radius: 10px;
-    /* Rounded corners */
     position: relative;
     overflow: hidden;
 }
@@ -25,16 +23,6 @@
     background-image: linear-gradient( 90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
     background-size: 20px 20px;
     pointer-events: none;
-}
-
-.fondo {
-    height: 1000px;
-    width: 1260px;
-    background-color: lightpink;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
 }
 
 .container {
@@ -98,36 +86,10 @@
     color: #333;
 }
 
-.encabezado {
-    height: 200px;
-    width: 1260px;
-    background: url(Fondo\ de\ patrón\ de\ helado\ 3d\ _\ Foto\ Premium.jfif);
-    margin-top: -2%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-.heladeria {
-    position: absolute;
-    margin-left: 35%;
-    margin-top: 5%;
-}
-
-.enlaces {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
 .flavors {
     padding: 40px 20px;
     text-align: center;
 }
-
-
-/* From Uiverse.io by omriluz */
 
 .form-container {
     width: 400px;
